@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+<!-- navbar -->
+    <nav class="bg-gray-800 shadow-md p-4 top-0 left-0">
+        <div class="conainer mx-auto flex justify-between items-center">
+            <img src="./assests/image/finallogo.png" alt="icon" class="w-32 h-32">
+            <ul class="flex space-x-6">
+                <li><a href="#" class="text-orange-600 hover:text-orange-500">Home</a></li>
+                <li><a href="#" class="text-white-600 hover:text-white-500">About</a></li>
+                <li><a href="#" class="text-white-600 hover:text-white-500">Services</a></li>
+                <li><a href="#" class="text-white-600 hover:text-white-500">Menu</a></li>
+                <div class="relative group">
+                    <a href="#" class="text-orange-600 hover:text-orange-500">Pages<img src="./assests/image/angle-small-down.png"></a>
+                    <ul class="absolute hidden group-hover:block bg-white shadow-md mt-2 rounded-lg w-40">
+                        <li><a href="#" class="block bs-4 py-2 hover:bg-grey-200">Contact</a></li>
+                    </ul>
+                </div>
+                <li><a href="signup.html" class="bg-orange-500 text-white-600 px-4 py-2 rounded-lg hover:bg-orange-600 rounded transition">SignUp</a></li></li>
+            </ul>
+        </div>
+    </nav>  
+
+    <!-- hero section -->
+       <section class="h-screen bg-[url('/home/uki-admin02/Documents/assignment3/assests/image/carousel-1.jpg')] bg-cover bg-center flex items-center justify-center">
+        <div class="bg-black bg-opacity-25 absolute inset-0 flex flex-col justify-center items-center  h-full text-white text-center"></div>
+         <div class="md:w-1/2 text-center md:text-left">
+            <h1 class="text-4xl font-bold text-white text-center">From Our Kitchen to Your Table,Fresh Every Day.</h1>
+            <p class="mt-4 text-lg text-white text-center">Enjoy the goodness of fresh,flavorful food delivered straight to you,ready to brighten your day with every biTe!</p>
+            <a href="#" class="mt-6 inline-block bg-blue-500 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-600 transition ">Explore More</a>
+         </div>
+
+       </section>
+       <footer class="bg-gray-800 text-white text-center py-4">
+        <p>2025 Uki Technology School,SriLanka.All rights reserved.</p>
+       </footer>
+    
+       <!--main image-->
+       <div class="grid grid-cols-2 items-center gap-4 bg-white p-4 rounded-lg shadow-lg inline-block">
+          <img src="./assests/image/about-1.jpg" alt="food" class="w-42 h-43 shadow-lg rounded-3xl inline-block">
+        <img src="./assests/image/about-2.jpg" alt="food" class="absolute top-2 right-2 w-40 h-40 border-2 border-white-300 shadow-lg z-50 rounded-2xl">
+        <div>
+        <h1 class="text-3xl font-bold text-white-800">Join us on our journey to celebrate the art of food</h1><br>
+
+        <div class="w-100 h-32p-4 bg-white shadow-lg rounded-lg border border-gray-300">
+            <h2 class="text-lg font-semibold text-gray-700">You don't have to cook fancy or complicated masterpieces just good food from fresh ingredients <br>-Julia</h2><br>
+        </div><br>
+        <p class="text-xl font-bold text-gray-800">We use only the freshest ingredients sourced locally whenever possible to create dishes that are wholesome as they are delicious.Our team of chefs works tirelessly to perfect every receipe,ensuring that each bite is packed with flavor and love.</p>
+        <a href="#" class="mt-6 inline-block bg-orange-500 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-orange-600 transition ">Explore More
+            <br><a href="#" class="mt-6 inline-block bg-white text-black px-6 py-3 rounded-lg shadow-lg hover:bg-blue-600 transition ">Contact us</a>
+        </div>
+        </a>
+        </div>
+        </div>
+
+        <!--menu card-->
+        <div class="max-w-5xl mx-auto">
+            <h5 class="text-xl font-bold text-center text-orange-800 mb-6">Our Specials</h5>
+            <h1 class="text-3xl font-bold text-center text-gray-800 mb-6">Discover a variety of dishes crafted with care</h1>
+        </div>
+        <div class="flex justify-center space-x-4 mb-6">
+            <button class="filter-btn px-4 py-2 bg-white text-orange rounded-lg hover:bg-orange-700 border-gray-300 clicked" data-category="all">All</button>
+            <button class="filter-btn px-4 py-2 bg-white text-orange rounded-lg hover:bg-orange-700 border-gray-300" data-category="vegetarion">Vegetarion</button>
+            <button class="filter-btn px-4 py-2 bg-white text-orange rounded-lg hover:bg-orange-700 border-gray-300" data-category="beverage">Beverage</button>
+        </div>
+        <div class="grid md-grid-cols-4 sm:grid-cols-2 gap-6">
+            <div class="bg-white p-4 rounded-lg">
+                <img src="./assests/image/courses-1.jpg" alt="food" class="rounded-lg"
+            </div>
+        </div>
+</body>
+</html>
